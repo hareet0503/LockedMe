@@ -1,4 +1,4 @@
-package com.company;
+package com.LockedMe;
 
 import java.util.Scanner;
 
