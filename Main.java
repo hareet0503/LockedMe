@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void displayOptions() {
-        System.out.println("\nEnter Directory Name: ");
+        System.out.println("\nEnter Directory Path: ");
         Scanner sc = new Scanner(System.in);
         String directoryName = sc.nextLine();
         LockedMe lockedMe = new LockedMe(directoryName);
