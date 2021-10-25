@@ -5,13 +5,22 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("--------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------");
         System.out.println("Welcome to LockedMe");
-        System.out.println("----------------------------");
+        System.out.println("--------------------------------------------------------------");
+        System.out.println("The application is developed by Hareet Yadav");
+        System.out.println("--------------------------------------------------------------");
+        System.out.println("You can use this application to :-\n"+
+                "\n• Retrieve all file names in your chosen folder"+
+                "\n• Search, add, or delete files in your chosen folder.");
+        System.out.println("--------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------");
         displayOptions();
     }
 
     public static void displayOptions() {
-        System.out.println("\nEnter Directory Path: ");
+        System.out.println("\nPlease Enter the Directory Path: ");
         Scanner sc = new Scanner(System.in);
         String directoryName = sc.nextLine();
         LockedMe lockedMe = new LockedMe(directoryName);
